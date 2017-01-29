@@ -80,3 +80,37 @@ footer > a {
 .nicejob {
   text-decoration: line-through;
 }
+
+body
+  font-family: Roboto, 'Open Sans', sans-serif
+  
+.header
+  color: #800000
+  text-align: center
+
+#app
+  display: flex
+  align-items: center
+  justify-content: center
+
+  .MarkdownEditor 
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    width: 100%
+    height: 100%
+
+    .box
+      padding: 5px 8px
+      width: 50%
+
+  .demo-card-square > .mdl-card__title 
+    color: #fff
+    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC
+
+  textarea
+    border-color: #46B6AC
+    width: 100%
+    min-height: 500px
+
+
